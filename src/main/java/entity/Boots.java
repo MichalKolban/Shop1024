@@ -23,4 +23,12 @@ public class Boots extends Product {
     public void setNaturalSkin(Boolean isNaturalSkin){
         this.isNaturalSkin=isNaturalSkin;
     }
+
+    @Override
+    public String toString() {
+        return "Boots{" +
+                "size=" + size +
+                ", isNaturalSkin=" + isNaturalSkin +
+                '}';
+    }
 }
